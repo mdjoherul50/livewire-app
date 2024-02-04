@@ -6,9 +6,9 @@ use Livewire\Component;
 
 class SayHi extends Component
 {
-    public $name = 'Jahirul';
+    public $name;
     public function mount($name){
-       $this->name = $name;
+       $th
     }
     public function render()
     {

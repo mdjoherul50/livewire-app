@@ -6,12 +6,9 @@
     @livewireStyles
 </head>
 <body>
+  @yield('content')
+
     
-    @livewire('hello-world')
-
-   ..........................
-   {{-- @livewire('say-hi' , ['name' => $name]) --}}
-
     @livewireScripts
 </body>
 </html>
